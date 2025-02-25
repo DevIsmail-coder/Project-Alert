@@ -37,6 +37,9 @@ const Filter = () => {
     </article>
     <article className='Filtercontainer2'>
         <button className='filterbutton'>Donate now</button>
+        <span>
+            
+        </span>
     </article>
     </div>
     <p></p>
