@@ -1,0 +1,41 @@
+.Headerbody{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    font-family: inter, sans-serif;
+    background-color: #F7EFFF;
+}
+
+.Headerdiv{
+    width: 30%;
+    display: flex;
+    /* font-family: inter san-serif; */
+    justify-content: center;
+}
+
+.Headerdivh3{
+    color: #371D53;
+    font-size: 20px;
+    /* font-weight: 700; */
+}
+
+.Headerdiv1{
+    width: 40%;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    color: #371D53;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.Headerbutton{
+    width: 132px;
+    height: 37px;
+    border: none;
+    border-radius: 9px;
+    font-size: 14.5px;
+    background-color: #371D53;
+    color: #FFFFFF;
+}
