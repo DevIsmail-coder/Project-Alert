@@ -41,13 +41,13 @@ const Donate = () => {
           <span className='chooseAmount'>{clrTogle ? 'Choose an amount' : 'Choose an amount to give per Month'}</span>
           <div className='donationAmounts'>
             <div className='amounts'>
-              <span>N100<smal>NGN</smal></span>
-              <span>N100<smal>NGN</smal></span>
-              <span>N100<smal>NGN</smal></span>
+              <input type='text' className='span' placeholder='N100NGN' />
+              <input type='text' className='span' placeholder='N100NGN' />
+              <input type='text' className='span' placeholder='N100NGN' />
             </div>
             <div className='amounts'>
-              <span>N100<smal>NGN</smal></span>
-              <span className='bigSpan'>N100<smal>NGN</smal></span>
+            <input type='text' className='span' placeholder='N100NGN' />
+            <input type='text' className='bigSpan' placeholder='N100NGN' />
             </div>
             <button onClick={handleOpenModalTogle}>Join Today</button>
           </div>
