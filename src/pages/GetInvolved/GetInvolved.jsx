@@ -1,9 +1,10 @@
 import React from 'react'
+import './GetInvolved.css'
 
 const GetInvolved = () => {
   return (
     <div>
-      <p>GetInvolved</p>
+     
     </div>
   )
 }
