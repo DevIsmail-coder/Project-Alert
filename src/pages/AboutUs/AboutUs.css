@@ -1,0 +1,201 @@
+.AboutUsmain{
+    width: 100%;
+    height: auto;
+}
+
+.Know-us-more{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(128, 128, 128, 0.144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-block{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    padding-bottom: 20px;
+}
+
+.about-us{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+    
+}
+
+.know-more{
+    width: 100%;
+    height: 50%;
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* align-items: center; */
+}
+
+.founder-div{
+    width: 100%;
+    height: 83vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder-div-wrap{
+    width: 80%;
+    height: 97%;
+    /* background-color: blue; */
+
+    display: flex;
+    flex-direction: row;
+}
+
+.founder-image{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    border-radius: 0px 20px 20px 0px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+}
+
+.founder-biography{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.space-div{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+}
+.founder-header-div{
+    width: 100%;
+    height: 8%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: end;
+    padding-left: 40px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+}
+
+.founder-second-header-div{
+    width: 100%;
+    height: 10%;
+    /* background-color: yellow; */
+    padding-left: 40px;
+    font-weight: 600;
+    /* align-items: center; */
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.founder-last-header-div{
+    width: 100%;
+    height: 82%;
+    /* background-color: green; */
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.Pledge-dive{
+    width: 100%;
+    height: 50vh;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.Pledge-dive-wrap{
+    width: 80%;
+    height: 57%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    /* justify-content: space-between; */
+}
+
+.our-vision{
+    width: 33%;
+    height: 100%;
+    /* background-color: magenta; */
+}
+
+.feedback-top{
+    width: 100%;
+    height: 20%;
+    /* background-color: mediumseagreen; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+}
+
+.our-vision-main{
+    width: 100%;
+    height: 30%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.our-vision-text{
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    font-size: 17px;
+    color: black;
+
+    padding-top: 5x;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.our-mission{
+    width: 33%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.our-value{
+    width: 34%;
+    height: 100%;
+    /* background-color: orange; */
+}
