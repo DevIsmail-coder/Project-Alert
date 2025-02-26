@@ -8,7 +8,8 @@ import GetInvolved from './pages/GetInvolved/GetInvolved'
 import Blog from './pages/Blog/Blog'
 import ContactUs from './pages/ContactUs/ContactUs'
 import Filter from './pages/Filter/Filter'
-// import Header from './pages/Header/Header'
+import Payment from './pages/Payment/Payment'
+import Success from './pages/Success/Success'
 
 function App() {
 
@@ -16,7 +17,10 @@ function App() {
     <div className='Appbody'>
       <BrowserRouter>
         <Routes>
+
           <Route path='/' element={<Filter />} />
+          <Route path='/payment' element={<Payment />} />
+          <Route path='/success' element={<Success/>} />
           <Route path='/log' element={<Home />} />
           <Route path='/donate' element={<Donate />} />
           <Route path='/aboutus' element={<AboutUs />} />
