@@ -47,6 +47,115 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
+
+    <div className='core-team'>
+      <div className='core-team-wrap'>
+        <div className='core-team-top'>
+          <div className='core-team-inner'>
+            <div className='core-team-top-top'><h3>CORE TEAM</h3></div>
+            <div className='our-team-top-top'><h1>Our Team</h1></div>
+          </div>
+        </div>
+        <div className='core-team-btm'>
+          <div className='core-team-btm-1'>
+          <div className='core-img-1'>
+          <div className='image1'>
+              <div className='img1-main'>
+                <img src="/src/assets/firstman.png" alt="" />
+              </div>
+            </div>
+            <div className='image2'>
+              <div className='btm-div1'><h3>Samuel Akpologun</h3></div>
+              <div className='btm-div2'>
+              <p>Legal officer/Consultant</p>
+              </div>
+            </div>
+          </div>
+          <div className='core-img-1'>
+          <div className='image1'>
+          <div className='img1-main'>
+            <img src="/src/assets/secondperson.png" alt="" />
+          </div>
+          </div>
+          <div className='image2'>
+          <div className='btm-div1'><h3>Nsini Udonta</h3></div>
+          <div className='btm-div2-1'>
+            <p>Shelter Administrator/Senior</p>
+            <p>Program Office</p>
+          </div>
+          </div>
+          </div>
+          <div className='core-img-1'>
+          <div className='image1'>
+          <div className='img1-main'>
+            <img src="/src/assets/thirdperson.png" alt="" />
+          </div>
+          </div>
+          <div className='image2'>
+          <div className='btm-div1'><h3>Momoh Yemisi</h3></div>
+          <div className='btm-div2'><p>Finance & Admin Officer</p></div>
+          </div>
+          </div>
+          </div>
+          <div className='core-team-btm-2'>
+          <div className='core-img-1'>
+            
+          <div className='image1'>
+            
+              <div className='img1-main'>
+                <img src="/src/assets/fourthperson.png" alt="" />
+              </div>
+              
+            </div>
+            <div className='image2'>
+              <div className='btm-div1'><h3>Olayemi Onabanjo</h3></div>
+              <div className='btm-div2'>
+              <p>Executive/Admin Assistant</p>
+              </div>
+            </div>
+          </div>
+          <div className='core-img-1'>
+          <div className='image1'>
+          <div className='img1-main'>
+            <img src="/src/assets/fifthperson.png" alt="" />
+          </div>
+          </div>
+          <div className='image2'>
+          <div className='btm-div1'><h3>Adibeli Tochukwu</h3></div>
+          <div className='btm-div2-1'>
+            <p>Program Assistant</p>
+          </div>
+          </div>
+          </div>
+          <div className='core-img-1'>
+          <div className='image1'>
+          <div className='img1-main'>
+            <img src="/src/assets/sixthperson.png" alt="" />
+          </div>
+          </div>
+          <div className='image2'>
+          <div className='btm-div1'><h3>Omokhoba Sunday</h3></div>
+          <div className='btm-div2'><p>Account Intern</p></div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className='button-div'>
+      <div className='inner-button-div'>
+        <div className='break-the-silence'>
+          <h1>Break the Silence</h1>
+          <h1>Take a Stand.</h1>
+        </div>
+        <div className='report-donate-div'>
+          <div className='btn-hold-inner'>
+            <button className='report-a-case-btn'>Report a case</button>
+            <button className='donate-now-btn'>Donate now</button>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 <Filter/>
     </div>
