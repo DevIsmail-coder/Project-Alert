@@ -18,7 +18,7 @@ const AboutUs = () => {
     <div className='founder-div'>
       <div className='founder-div-wrap'>
         <div className='founder-image'>
-          <img src="/src/assets/Frame 137.png" alt="" />
+          <img src="/Frame 137.png" alt="" />
         </div>
         <div className='founder-biography'>
           <div className='founder-header-div'><h4>ABOUT THE FOUNDER</h4></div>
@@ -61,7 +61,7 @@ const AboutUs = () => {
           <div className='core-img-1'>
           <div className='image1'>
               <div className='img1-main'>
-                <img src="/src/assets/firstman.png" alt="" />
+                <img src="/firstman.png" alt="" />
               </div>
             </div>
             <div className='image2'>
@@ -74,7 +74,7 @@ const AboutUs = () => {
           <div className='core-img-1'>
           <div className='image1'>
           <div className='img1-main'>
-            <img src="/src/assets/secondperson.png" alt="" />
+            <img src="/secondperson.png" alt="" />
           </div>
           </div>
           <div className='image2'>
@@ -88,7 +88,7 @@ const AboutUs = () => {
           <div className='core-img-1'>
           <div className='image1'>
           <div className='img1-main'>
-            <img src="/src/assets/thirdperson.png" alt="" />
+            <img src="/thirdperson.png" alt="" />
           </div>
           </div>
           <div className='image2'>
@@ -103,7 +103,7 @@ const AboutUs = () => {
           <div className='image1'>
             
               <div className='img1-main'>
-                <img src="/src/assets/fourthperson.png" alt="" />
+                <img src="/fourthperson.png" alt="" />
               </div>
               
             </div>
@@ -117,7 +117,7 @@ const AboutUs = () => {
           <div className='core-img-1'>
           <div className='image1'>
           <div className='img1-main'>
-            <img src="/src/assets/fifthperson.png" alt="" />
+            <img src="/fifthperson.png" alt="" />
           </div>
           </div>
           <div className='image2'>
@@ -130,7 +130,7 @@ const AboutUs = () => {
           <div className='core-img-1'>
           <div className='image1'>
           <div className='img1-main'>
-            <img src="/src/assets/sixthperson.png" alt="" />
+            <img src="/sixthperson.png" alt="" />
           </div>
           </div>
           <div className='image2'>

@@ -2,7 +2,7 @@ import "./Blog.css";
 
 const cardData = [
   {
-    img: "/public/Projectalert 1.png",
+    img: "/Projectalert 1.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -11,7 +11,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1 copy.png",
+    img: "/Projectalert 1 copy.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -20,7 +20,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1 copy 2.png",
+    img: "/Projectalert 1 copy 2.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -29,7 +29,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1 copy 3.png",
+    img: "/Projectalert 1 copy 3.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -38,7 +38,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1 copy 4.png",
+    img: "/Projectalert 1 copy 4.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -47,7 +47,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1 copy 5.png",
+    img: "/Projectalert 1 copy 5.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -56,7 +56,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1 copy 6.png",
+    img: "/Projectalert 1 copy 6.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -65,7 +65,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1 copy 7.png",
+    img: "/Projectalert 1 copy 7.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
@@ -74,7 +74,7 @@ const cardData = [
   },
 
   {
-    img: "/public/Projectalert 1.png",
+    img: "/Projectalert 1.png",
     title:
       "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
     content:
