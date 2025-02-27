@@ -155,7 +155,7 @@ const Donate = () => {
     </div>
       <div className='modal'>
        <span className='closeModal'><LiaTimesSolid size={30} onClick={handleOpenModalTogle}/></span>
-      {/* {openModal?<PaymentModal/>:null} */}
+      {openModal?<PaymentModal/>:null}
       </div>
     </>
   )
