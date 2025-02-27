@@ -72,17 +72,17 @@ const handleClrTogle3 = ()=>{
             <PiCreditCardLight size={50} color='#4ac282'/>
             Card
             </span>
-            <span className='card'>
+            <span className='ModalPopCard'>
             <FiSend size={50} />
             Transfer
             </span>
 
-            <span className='card'>
+            <span className='ModalPopCard'>
             <CiBank size={50} />
             Bank
             </span>
 
-            <span style={{fontWeight:'bold'}} className='card'>
+            <span style={{fontWeight:'bold'}} className='ModalPopCard'>
             *#  USSD
             </span>
            
