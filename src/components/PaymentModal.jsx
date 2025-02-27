@@ -11,6 +11,8 @@ import { MdVerified } from "react-icons/md";
 const PaymentModal = () => {
 const [togleClr, setTogleClr] = useState(false)
 const [ clr, setClr] = useState('black')
+const [ clr2, setClr2] = useState('black')
+const [ clr3, setClr3] = useState('black')
 // const [borderClr, setBorderClr] = useState('black')
 const [suucessPay, setSuccessPay] = useState(true)
 
@@ -25,6 +27,8 @@ const handleClrTogle = ()=>{
     setTogleClr((prev)=>(!prev))
    if(togleClr === true){
     setClr('#1fc26b')
+    setClr2('#1fc26b')
+    setClr3('#1fc26b')
     // setBorderClr('#1fc26b')
    }else{
     null
@@ -66,18 +70,19 @@ const handleClrTogle = ()=>{
             use any of the options below to test the <br/> payment flow
         </div>
         <div className='selectPayment'>
-            <span style={{borderColor:clr}}>
+            <span style={togleClr?{borderColor:clr}:{borderColor:'black'}}>
+
                 {togleClr?<FaRegCircle onClick={handleClrTogle} color={clr}/>:<FaRegCircle onClick={handleClrTogle} color='black'/>}
                 Success
             </span>
 
-            <span>
-                <FaRegCircle/>
+            <span style={togleClr?{borderColor:clr2}:{borderColor:'black'}}>
+            {togleClr?<FaRegCircle onClick={handleClrTogle} color={clr2}/>:<FaRegCircle onClick={handleClrTogle} color='black'/>}
                 Bank Authorization
             </span>
 
-            <span>
-                <FaRegCircle/>
+            <span style={togleClr?{borderColor:clr3}:{borderColor:'black'}}>
+            {togleClr?<FaRegCircle onClick={handleClrTogle} color={clr3}/>:<FaRegCircle onClick={handleClrTogle} color='black'/>}
                 Declined
             </span>
         </div>
