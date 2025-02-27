@@ -116,7 +116,7 @@ const handleClrTogle3 = ()=>{
       <p>use another card</p>
       </div>
     </div> :<div className='successModal'>
-        <MdVerified size={200} color='#13ad5b'/>
+        <MdVerified size={150} color='#13ad5b'/>
         SUCCESSFUL
         </div>}
    </>
