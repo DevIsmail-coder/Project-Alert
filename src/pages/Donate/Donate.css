@@ -319,8 +319,8 @@
 .modal{
     height: max-content;
     width: max-content;
-    top: 800px;
-    right: 800px;
+    top: 700px;
+    right: 500px;
     position: absolute;
 }
 
