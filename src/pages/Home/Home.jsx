@@ -2,7 +2,12 @@ import React from 'react'
 import "./Home.css"
 import Header from '../Header/Header'
 import Filter from '../Filter/Filter'
+import { useNavigate } from 'react-router-dom'
+
 const Home = () => {
+
+   const navigate = useNavigate();
+
   return (
     <div className='Hero-page'>
     < Header/>
@@ -17,8 +22,8 @@ const Home = () => {
             </div>
             <div className='inner-up-img-text-2'>
                 <div className='inner-btm-btn-div'>
-                    <button className='hero-page-btn-1'>Report a case</button>
-                    <button className='hero-page-btn-2'>Donate now</button>
+                    <button onClick={()=>navigate("/contactus")} className='hero-page-btn-1'>Report a case</button>
+                    <button onClick={()=>navigate("/donate")} className='hero-page-btn-2'>Donate now</button>
                 </div>
             </div>
             </div>
@@ -47,7 +52,7 @@ const Home = () => {
                 <p>Violence against women is perhaps the most shameful human rights violation, and it is perhaps the most pervasive. It knows no boundaries of geography, culture or wealth. As long as it continues we cannot claim to be making real progress towards equality, development and peace.</p>
             </div>
             <div className='who-we-are-btn-down-btn'>
-                <button className='Read-more-btn'>Read More</button>
+                <button  onClick={()=>navigate("/aboutus")} className='Read-more-btn'>Read More</button>
             </div>
           </div>
         </div>
