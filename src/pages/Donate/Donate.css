@@ -101,7 +101,7 @@
 .chooseAmount{
     height: 17%;
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -320,7 +320,7 @@
     height: max-content;
     width: max-content;
     top: 500px;
-    right: 45add0px;
+    right: 450px;
     position: absolute;
 }
 
