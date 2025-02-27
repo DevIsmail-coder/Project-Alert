@@ -107,7 +107,7 @@
     padding-left: 40px;
     font-weight: 600;
     /* align-items: center; */
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -428,5 +428,770 @@
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px
+}
+
+@media screen and (min-width: 250px) and (max-width: 320px) {
+
+    .AboutUsmain{
+        width: 100%;
+        /* background-color: blue; */
+        /* height: auto; */
+    }
+
+    .Know-us-more{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .inner-block{
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+    .about-us{
+        /* background-color: magenta; */
+        font-size: 12px;
+    }
+
+    .know-more{
+        /* background-color: green; */
+        font-size: 12px;
+        /* height: 100%; */
+    }
+
+    .founder-div{
+        /* background-color: red; */
+        width: 100%;
+        max-height: 5%;
+    }
+
+    .founder-div-wrap{
+        /* background-color: blue; */
+        display: flex;
+        padding-top: 20px;
+        height: 70%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .space-div{
+        display: none;
+    }
+
+    .founder-image{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            height: 80%;
+            width: 100%;
+        }
+    }
+
+    .founder-biography{
+        width: 50%;
+        height: 80%;
+        /* background-color: yellow; */
+    }
+
+    .founder-header-div{
+        /* background-color: orangered; */
+        font-size: 6px;
+        /* padding-left: 10px; */
+        height: 10%;
+    }
+
+    .founder-second-header-div{
+        /* background-color: green; */
+        font-size: 3px;
+        padding-top: 5px;
+        padding-left: 20px;
+        height: 10%;
+    }
+
+    .founder-last-header-div{
+        width: 100%;
+        height: 85%;
+        /* background-color: green; */
+        font-size: 7px;
+        font-weight: 600;
+    }
+
+    .Pledge-dive{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .Pledge-dive-wrap{
+        width: 100%;
+        /* background-color: blue; */
+        gap: 10px;
+    }
+
+    .our-vision{
+       /* background-color: green; */
+       height: 85%;
+       width: 100%;
+    }
+
+    .our-mission{
+        /* background-color: aqua; */
+        height: 85%;
+        width: 100%;
+    }
+    
+    .our-value{
+        /* background-color: red; */
+        height: 85%;
+        width: 100%;
+    }
+
+    .feedback-top{
+        width: 100%;
+        /* background-color: magenta; */
+        font-size: 7px
+    }
+
+    .our-vision-main{
+        /* background-color: blue; */
+        height: 15%;
+        font-size: 6px;
+    }
+
+    .our-vision-text{
+        /* background-color: orange; */
+        height: 85%;
+        font-weight: 600;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .core-team{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .core-team-top{
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+    .core-team-inner{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .core-team-top-top{
+        /* background-color: blue; */
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .our-team-top-top{
+        /* background-color: green; */
+        font-size: 7px;
+    }
+
+    .core-team-btm{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .core-team-btm-1{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .image1{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .img1-main{
+       /* background-color: magenta; */
+       display: flex;
+       align-items: end;
+       
+
+       & img {
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+       }
+    }
+
+    .image2{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .btm-div1{
+        /* background-color: yellow; */
+        height: 25%;
+        width: 100%;
+        font-size: 6px;
+    }
+
+    .btm-div2-1{
+        /* background-color: magenta; */
+        width: 100%;
+        font-size: 6px;
+        font-size: 4px;
+    }
+
+    .btm-div2{
+        /* background-color: green; */
+        font-size: 6px;
+        height: 25%;
+        width: 100%;
+    }
+
+    .inner-button-div{
+        width: 80%;
+        /* background-color: green; */
+        height: 40%;
+        border-radius: 6px;
+    }
+
+    .break-the-silence{
+        /* background-color: green; */
+        font-size: 8px;
+    }
+
+    .btn-hold-inner{
+        /* background-color: yellow; */
+        width: 80%;
+        /* height: 70%; */
+    }
+
+    .report-a-case-btn{
+        /* background-color: green; */
+        width: 100%;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+
+    .donate-now-btn{
+        /* background-color: magenta; */
+        width: 100%;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 416px) and (max-width: 800px) {
+    .AboutUsmain{
+        width: 100%;
+        /* background-color: blue; */
+        /* height: auto; */
+    }
+
+    .Know-us-more{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .inner-block{
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+    .about-us{
+        /* background-color: magenta; */
+        font-size: 12px;
+    }
+
+    .know-more{
+        /* background-color: green; */
+        font-size: 12px;
+        /* height: 100%; */
+    }
+
+    .founder-div{
+        /* background-color: red; */
+        width: 100%;
+        max-height: 5%;
+    }
+
+    .founder-div-wrap{
+        /* background-color: blue; */
+        display: flex;
+        padding-top: 20px;
+        height: 70%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .space-div{
+        display: none;
+    }
+
+    .founder-image{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            height: 80%;
+            width: 100%;
+        }
+    }
+
+    .founder-biography{
+        width: 50%;
+        height: 80%;
+        /* background-color: yellow; */
+    }
+
+    .founder-header-div{
+        /* background-color: orangered; */
+        font-size: 7px;
+        /* padding-left: 10px; */
+        height: 10%;
+    }
+
+    .founder-second-header-div{
+        /* background-color: green; */
+        font-size: 6px;
+        padding-top: 5px;
+        padding-left: 20px;
+        height: 10%;
+    }
+
+    .founder-last-header-div{
+        width: 100%;
+        height: 85%;
+        /* background-color: green; */
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    .Pledge-dive{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .Pledge-dive-wrap{
+        width: 100%;
+        /* background-color: blue; */
+        gap: 10px;
+    }
+
+    .our-vision{
+       /* background-color: green; */
+       height: 85%;
+       width: 100%;
+    }
+
+    .our-mission{
+        /* background-color: aqua; */
+        height: 85%;
+        width: 100%;
+    }
+    
+    .our-value{
+        /* background-color: red; */
+        height: 85%;
+        width: 100%;
+    }
+
+    .feedback-top{
+        width: 100%;
+        /* background-color: magenta; */
+        font-size: 8px
+    }
+
+    .our-vision-main{
+        /* background-color: blue; */
+        height: 15%;
+        font-size: 8px;
+    }
+
+    .our-vision-text{
+        /* background-color: orange; */
+        height: 85%;
+        font-weight: 600;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .core-team{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .core-team-top{
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+    .core-team-inner{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .core-team-top-top{
+        /* background-color: blue; */
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .our-team-top-top{
+        /* background-color: green; */
+        font-size: 10px;
+    }
+
+    .core-team-btm{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .core-team-btm-1{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .image1{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .img1-main{
+       /* background-color: magenta; */
+       display: flex;
+       align-items: end;
+       
+
+       & img {
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+       }
+    }
+
+    .image2{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .btm-div1{
+        /* background-color: yellow; */
+        height: 40%;
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .btm-div2-1{
+        /* background-color: magenta; */
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .btm-div2{
+        /* background-color: green; */
+        font-size: 8px;
+        height: 30%;
+        width: 100%;
+    }
+
+    .inner-button-div{
+        width: 80%;
+        /* background-color: green; */
+        height: 40%;
+        border-radius: 6px;
+    }
+
+    .break-the-silence{
+        /* background-color: green; */
+        font-size: 9px;
+    }
+
+    .btn-hold-inner{
+        /* background-color: yellow; */
+        width: 80%;
+        /* height: 70%; */
+    }
+
+    .report-a-case-btn{
+        /* background-color: green; */
+        width: 100%;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    .donate-now-btn{
+        /* background-color: magenta; */
+        width: 100%;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 415px) {
+    .AboutUsmain{
+        width: 100%;
+        /* background-color: blue; */
+        /* height: auto; */
+    }
+
+    .Know-us-more{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .inner-block{
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+    .about-us{
+        /* background-color: magenta; */
+        font-size: 12px;
+    }
+
+    .know-more{
+        /* background-color: green; */
+        font-size: 12px;
+        /* height: 100%; */
+    }
+
+    .founder-div{
+        /* background-color: red; */
+        width: 100%;
+        max-height: 5%;
+    }
+
+    .founder-div-wrap{
+        /* background-color: blue; */
+        display: flex;
+        padding-top: 20px;
+        height: 70%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .space-div{
+        display: none;
+    }
+
+    .founder-image{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            height: 80%;
+            width: 100%;
+        }
+    }
+
+    .founder-biography{
+        width: 50%;
+        height: 80%;
+        /* background-color: yellow; */
+    }
+
+    .founder-header-div{
+        /* background-color: orangered; */
+        font-size: 6px;
+        /* padding-left: 10px; */
+        height: 10%;
+    }
+
+    .founder-second-header-div{
+        /* background-color: green; */
+        font-size: 3px;
+        padding-top: 5px;
+        padding-left: 20px;
+        height: 10%;
+    }
+
+    .founder-last-header-div{
+        width: 100%;
+        height: 85%;
+        /* background-color: green; */
+        font-size: 7px;
+        font-weight: 600;
+    }
+
+    .Pledge-dive{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .Pledge-dive-wrap{
+        width: 100%;
+        /* background-color: blue; */
+        gap: 10px;
+    }
+
+    .our-vision{
+       /* background-color: green; */
+       height: 85%;
+       width: 100%;
+    }
+
+    .our-mission{
+        /* background-color: aqua; */
+        height: 85%;
+        width: 100%;
+    }
+    
+    .our-value{
+        /* background-color: red; */
+        height: 85%;
+        width: 100%;
+    }
+
+    .feedback-top{
+        width: 100%;
+        /* background-color: magenta; */
+        font-size: 7px
+    }
+
+    .our-vision-main{
+        /* background-color: blue; */
+        height: 15%;
+        font-size: 6px;
+    }
+
+    .our-vision-text{
+        /* background-color: orange; */
+        height: 85%;
+        font-weight: 600;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .core-team{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .core-team-top{
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+    .core-team-inner{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .core-team-top-top{
+        /* background-color: blue; */
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .our-team-top-top{
+        /* background-color: green; */
+        font-size: 7px;
+    }
+
+    .core-team-btm{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .core-team-btm-1{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .image1{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .img1-main{
+       /* background-color: magenta; */
+       display: flex;
+       align-items: end;
+       
+
+       & img {
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+       }
+    }
+
+    .image2{
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .btm-div1{
+        /* background-color: yellow; */
+        height: 25%;
+        width: 100%;
+        font-size: 6px;
+    }
+
+    .btm-div2-1{
+        /* background-color: magenta; */
+        width: 100%;
+        font-size: 6px;
+        font-size: 4px;
+    }
+
+    .btm-div2{
+        /* background-color: green; */
+        font-size: 6px;
+        height: 25%;
+        width: 100%;
+    }
+
+    .inner-button-div{
+        width: 80%;
+        /* background-color: green; */
+        height: 40%;
+        border-radius: 6px;
+    }
+
+    .break-the-silence{
+        /* background-color: green; */
+        font-size: 8px;
+    }
+
+    .btn-hold-inner{
+        /* background-color: yellow; */
+        width: 80%;
+        /* height: 70%; */
+    }
+
+    .report-a-case-btn{
+        /* background-color: green; */
+        width: 100%;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+
+    .donate-now-btn{
+        /* background-color: magenta; */
+        width: 100%;
+        border-radius: 4px;
+        font-size: 10px;
+    }
 }
 
