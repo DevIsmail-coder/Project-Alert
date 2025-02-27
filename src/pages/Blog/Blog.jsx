@@ -1,46 +1,195 @@
 import "./Blog.css";
 
 const cardData = [
-  { img: "/public/Project Alert NGO (1)", title: "y kjvh", content: "o", date: "jhuf" },
-  { img: "/Project Alert NGO (2).jpg", title: "jjbj", content: "ppkej", date: "jhuer" },
-  { img: "/Project Alert NGO (3).jpg", title: "msdhj", content: "uhydf", date: "opir" },
-  { img: "/Project Alert NGO (4).jpg", title: "kjohgu", content: "khduf", date: "ki" },
-  { img: "/Project Alert NGO (5).jpg", title: "ll hmrjg", content: "juhfi", date: "jwuhf" },
-  { img: "/Project Alert NGO (6).jpg", title: "knuihg.", content: "hgfduy", date: "knuqh" },
-  { img: "/Project Alert NGO (7).jpg", title: "lo vuer", content: "jsij", date: "guhfu" },
-  { img: "/Project Alert NGO (8).jpg", title: "i jg", content: "kmfewi", date: "mdvn" },
-  { img: "/Project Alert NGO (9).jpg", title: "pbhh", content: "mdhfi", date: "kfhu" },
+  {
+    img: "/public/Projectalert 1.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1 copy.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      " November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1 copy 2.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1 copy 3.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1 copy 4.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1 copy 5.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1 copy 6.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1 copy 7.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+
+  {
+    img: "/public/Projectalert 1.png",
+    title:
+      "CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30",
+    content:
+      "November 25, 2024 Press Release CELEBRATING PROJECT ALERT @25: 16 Days Activism 2024 & The Beijing Platform for Action +30 Today November 25th, 2024 marks the commencement of the annual global campaign against gender-based violence, known as 16 Days of…",
+    date: "projectalert / November 24, 2024",
+  },
+];
+const Linkdata = [
+  {
+    first:
+      "LAGOS STATE DOMESTIC AND SEXUAL VIOLENCE AGENCY ORGANIZES ONE-DAY STAKEHOLDER ENGAGEMENT",
+    second: "https://download%20project%20newsletter-april-june-2024/",
+    third: "Project Newsletter April - June 2024",
+  },
+  {
+    first:
+      "PROJECT ALERT ENGAGES STAKEHOLDERS IN ADVOCACY VISIT FOR JUSTICE REFORM",
+    second:
+      "https://projectalertnig.org/wp-content/uploads/2024/05/Project-Newsletter-January-March-2024.pdf",
+    third: "Project Newsletter January -March 2024:",
+  },
+  {
+    first:
+      "PROJECT ALERT COMMENCED SENSITISATIO OF STUDENTS IN ACADEMIC INSTITUTIONS IN AKWAIBOM AND CROSS RIVER STATE",
+    second:
+      "https://projectalertnig.org/wp-content/uploads/2024/02/Project-Newsletter-October-December-2023.pdf",
+    third: "Project Newsletter October - December 2023:",
+  },
+  {
+    first:
+      "EU-UN SPOTLIGHT TEAM ORGANISES JOINT EVALUATION ON SUSTAINABILITY STRATEGIES WITH IMPLEMENTING PARTNERS",
+    second:
+      "https://projectalertnig.org/wp-content/uploads/2024/02/Project-Newsletter-July-September-2023.pdf",
+    third: "Project Newsletter July-September 2023",
+  },
+  {
+    first: "STAKEHOLDER CONVENING MEETING ON PRIVATE SECTOR-LED GBV FUND",
+    second:
+      "https://projectalertnig.org/wp-content/uploads/2024/02/Project-Newsletter-April-June-2023.pdf",
+    third: "Project Newsletter April-June 2023",
+  },
+  {
+    first: "PROJECT ALERT COMMEMORATES INTERNATIONAL WOMEN’S DAY",
+    second:
+      "https://projectalertnig.org/wp-content/uploads/2024/02/Project-Newsletter-January-March-2023.pdf",
+    third: "Project Newsletter January - March 2023",
+  },
+  {
+    first:
+      "PROJECT ALERT HOLDS RESEARCHWORKSHOPS ON SEXUAL VIOLENCEIN ACADEMIC INSTITUTIONS.",
+    second:
+      "https://projectalertnig.org/wp-content/uploads/2024/02/Project-Newsletter-October-December-2022.pdf",
+    third: "Project Newsletter October - December 2022",
+  },
 ];
 
 const Blog = () => {
   return (
-    <>
-      <div className="Header"> </div>
-      <div className="Blog">
-        <div className="BlogText">
-          <div className="blog">
-            <h1>BLOG</h1>
-          </div>
-          <div className="news">
-            <h1>In the news & E-newsletter </h1>
-          </div>
+    <div className="mainBody">
+      <Header/>
+      <div className="blog_Hero">
+        <div className="header"></div>
+        <div className="Page-title">
+        <h2>BLOG</h2>
+        <h1>In the news & E-newsletter</h1>
         </div>
-        <div className="BlogEmpty"></div>
+
       </div>
-      <div className="CardBody">
-        {cardData.map((item, index) => (
+      <div className="card_holder">
+        {cardData.map((i, index) => (
           <div className="card" key={index}>
-            <div className="imgHolder">
-              <img src={item.img} alt="" />
+            <div className="card_img">
+              <img src={i.img} alt="" />
             </div>
-            <div className="title">{item.title}</div>
-            <div className="content">{item.content}</div>
-            <div className="date">{item.date}</div>
+            <div className="card_title">
+              <h3>{i.title}</h3>
+            </div>
+            <div className="card_content">
+              <p>{i.content}</p>
+            </div>
+            <div className="card_date">
+              <p>{i.date}</p>
+            </div>
           </div>
         ))}
+        <div className="dot-holder">
+          <span className="dot"></span>
+          <span className="dot2"></span>
+        </div>
+        <div className="section">
+          <div className="latter">
+            <p>Newslatter </p>
+          </div>
+          <div className="our">
+            <h2>Our Newslatter</h2>
+          </div>
+        </div>
+        <section className="LinkBody">
+          { Linkdata.map((item, index)=>(
+
+          <div className="LinkCard" key={index}>
+            <div className="tit">{item.first}</div>
+            <div className="see">
+              <a href={item.second}>see more</a>
+            </div>
+            <div className="foot">{item.third}</div>
+          </div>
+           ))}
+
+        </section>
+        <div className="footer">
+          <Filter/>
+        </div>
       </div>
-    
-    </>
+    </div>
   );
 };
 
