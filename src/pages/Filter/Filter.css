@@ -18,10 +18,13 @@
     /* align-items: center; */
     justify-content: flex-end;
     gap: 60px;
+    align-items: baseline;
     /* background-color: red; */
 }
 .Filtermainwrap{
     display: flex;
+    align-items: baseline;
+    /* background-color: blue; */
     flex-direction: column;
     gap: 20px;
 }
@@ -33,6 +36,7 @@
 .Filtercontainerlist{
     display: flex;
     flex-direction: column;
+    align-items: baseline;
     gap: 15px;
     font-size: 12.5px;
     color: #FFFFFF;
@@ -58,12 +62,14 @@
     justify-content: center;
     color: #FFFFFF;
     cursor: pointer;
+    transition:  1.5s;
     background-color: #371D53;
 }
 .filterbutton:hover{
   width: 120px;
   height: 40px;
   cursor: pointer;
+  scale: 1.1;
   background-color: #6f32b1e7;
 }
 .filtericonspan{
@@ -79,11 +85,13 @@
 .filtericons{
     font-size: 22px;
     color: #D3D2D3;
+    cursor: pointer;
 }
 
 .filtericons1{
     font-size: 18px;
     color: #D3D2D3;
+    cursor: pointer;
 }
 
 .filterptag{
@@ -100,7 +108,63 @@
 
 
   @media screen and (max-width: 800px) {
-   .Filterbody{
-    display: flex;
-   }
+    .Filterbody{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 135vh;
+        gap: 30px;
+        font-family: inter, sans-serif;
+        background-color: #3B3638;
+    }
+
+    .Filtermain{
+        width: 100%;
+        height: 128vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 0%;
+        flex-direction: column-reverse;
+        background-color: #3B3638;
+        /* background-color: green; */
+    }
+    .Filtercontainer2{
+        width: 100%;
+        display: flex;
+        /* background-color: blue; */
+        flex-direction: column;
+        gap: 15px;
+         align-items: center;
+        justify-content: center; 
+    }
+
+    .Filtercontainer1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        align-items: center;
+        /* font-size: 30px; */
+        justify-content: center;
+        /* background-color: red; */
+    }
+
+    .filterptag{
+        width: 100%;
+        display: flex;
+        color: #767274;
+        /* background-color: yellow; */
+        height: 50px;
+    }
+
+    .Filterheader{
+        font-size: 22px;
+        color: #767274;
+    }
+
+    .Filtercontainerlist{
+        font-size: 15px;
+        color: #767274;
+    }
 }
