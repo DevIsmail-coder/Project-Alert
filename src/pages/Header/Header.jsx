@@ -37,7 +37,7 @@ const location = useLocation()
         </div>
       </article>
       <article className='Headerdiv'>
-        <button className='Headerbutton'>Report a case</button>
+        <button onClick={()=>navigate("/contactus")} className='Headerbutton'>Report a case</button>
       </article>
     </div>
   )

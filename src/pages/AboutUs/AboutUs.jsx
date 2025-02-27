@@ -66,7 +66,7 @@ const AboutUs = () => {
           <div className='core-img-1'>
           <div className='image1'>
               <div className='img1-main'>
-                <img src="/firstman.png" alt="" />
+                <img src="/public/firstman.png" alt="" />
               </div>
             </div>
             <div className='image2'>

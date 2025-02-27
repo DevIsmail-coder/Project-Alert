@@ -19,10 +19,10 @@ function App() {
 
           <Route path='/payment' element={<Payment />} />
           <Route path='/success' element={<Success/>} />
-          <Route path='/getinvolved' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/donate' element={<Donate />} />
           <Route path='/aboutus' element={<AboutUs />} />
-          <Route path='/' element={<GetInvolved />} />
+          <Route path='/getinvolved' element={<GetInvolved />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/contactus' element={<ContactUs />} />
         </Routes>
