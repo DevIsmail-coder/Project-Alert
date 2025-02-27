@@ -139,7 +139,6 @@ const Blog = () => {
     <div className="mainBody">
     <Header/>
       <div className="blog_Hero">
-        <div className="header"></div>
         <div className="Page-title">
         <h2>BLOG</h2>
         <h1>In the news & E-newsletter</h1>
@@ -188,9 +187,7 @@ const Blog = () => {
            ))}
 
         </section>
-        <div className="footer">
           <Filter/>
-        </div>
       </div>
     </div>
   );
