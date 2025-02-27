@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bg{
+    width: 100%;
+    height: 70vh;
+    background-color:white;
+}
+.heading{
+    width: 100%;
+    height: 10vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+
+}
+.box{
+   display: flex;
+   flex-direction: column;
+   gap: 2.7px;
+   padding-top: 20px;
+}
+.one{
+    width: 50px;
+    height: 10px;
+    background-color: #0BA4DB;
+    border-radius: 3px;
+}
+.two{
+    width: 53px;
+    height: 10px;
+    background-color:#0BA4DB;
+    border-radius: 3px;
+}
+.three{
+    width: 50px;
+    height: 10px;
+    background-color: #0BA4DB;
+    border-radius: 3px;
+}
+.four{
+    width: 30px;
+    height: 10px;
+    background-color:#0BA4DB;
+    border-radius: 3px;
+}
+
+.box_two{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 27px;
+
+    gap: 2px;
+}
+.v{
+color: rgb(58, 57, 57);
+    font-family: "Poppins", serif;
+}
+.subtitle{
+    width: 100%;
+    height: 18vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 20px;
+    color: rgb(58, 57, 57);
+    text-align: center;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+}
+.input_holder{
+    width: 100%;
+    height: 40vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 26px; */
+    gap: 7px;
+  
+}
+.cover{
+    width: 99%;
+    height: 19%;
+    border: 1px solid grey;
+   padding: 15px;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 5px;
+   
+}
+input{
+ height: 20px;
+ width: 20px;
+ margin-right: 12px;
+ padding-top: 20px;
+}
+span{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+
+}
+button{
+    width: 99%;
+    height: 19%;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c10d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    
+}
+.last{
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+h2{
+    font-family: "Poppins", serif;
+}
+.star{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 11.21px;
+line-height: 16.82px;
+letter-spacing: 0px;
+text-align: center;
+
+}
