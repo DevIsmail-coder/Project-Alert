@@ -134,7 +134,6 @@ const Linkdata = [
 const Blog = () => {
   return (
     <div className="mainBody">
-      <Header/>
       <div className="blog_Hero">
         <div className="header"></div>
         <div className="Page-title">
@@ -185,9 +184,7 @@ const Blog = () => {
            ))}
 
         </section>
-        <div className="footer">
-          <Filter/>
-        </div>
+        <div className="footer"></div>
       </div>
     </div>
   );
