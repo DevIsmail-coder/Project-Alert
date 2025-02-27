@@ -3,6 +3,9 @@
     height: 13vh;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     font-family: inter, sans-serif;
     background-color: #F7EFFF;
 }
@@ -25,7 +28,8 @@
     display: flex;
     font-weight: 500;
     font-size: 16px;
-    color: #371D53;
+    color: black;
+    align-items: center;
     justify-content: space-between;
     /* background-color: green; */
 }
@@ -38,4 +42,15 @@
     font-size: 14.5px;
     background-color: #371D53;
     color: #FFFFFF;
+}
+
+.Headerdiv1span{
+    columns: #371D53;
+}
+
+.active{
+    padding: 12px;
+    display: flex;
+    color: #371D53;
+    border-bottom: 1px solid #371D53;
 }
