@@ -1,4 +1,7 @@
 import "./Blog.css";
+import React from "react";
+import Header from "../Header/Header"
+import Filter from "../Filter/Filter"
 
 const cardData = [
   {
@@ -134,6 +137,7 @@ const Linkdata = [
 const Blog = () => {
   return (
     <div className="mainBody">
+    <Header/>
       <div className="blog_Hero">
         <div className="header"></div>
         <div className="Page-title">
@@ -184,7 +188,9 @@ const Blog = () => {
            ))}
 
         </section>
-        <div className="footer"></div>
+        <div className="footer">
+          <Filter/>
+        </div>
       </div>
     </div>
   );
