@@ -189,7 +189,7 @@ const Blog = () => {
           ))}
 
         </section>
-        <Filter />
+        <Filter className="Filterbody" />
       </div>
     </div>
   );

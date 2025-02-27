@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { MdVerified } from "react-icons/md";
-import { ClipLoader } from 'react-spinners';
 import {   Modal } from 'antd';
+import { ClipLoader } from 'react-spinners';
 
 const Success = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
