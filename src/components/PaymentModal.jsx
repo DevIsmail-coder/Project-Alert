@@ -10,6 +10,8 @@ import { MdVerified } from "react-icons/md";
 
 const PaymentModal = () => {
 const [togleClr, setTogleClr] = useState(false)
+const [togleClr2, setTogleClr2] = useState(false)
+const [togleClr3, setTogleClr3] = useState(false)
 const [ clr, setClr] = useState('black')
 const [ clr2, setClr2] = useState('black')
 const [ clr3, setClr3] = useState('black')
@@ -27,13 +29,37 @@ const handleClrTogle = ()=>{
     setTogleClr((prev)=>(!prev))
    if(togleClr === true){
     setClr('#1fc26b')
-    setClr2('#1fc26b')
-    setClr3('#1fc26b')
-    // setBorderClr('#1fc26b')
+    // setClr2('#1fc26b')
+    // setClr3('#1fc26b')
    }else{
     null
    }
 }
+
+const handleClrTogle2 = ()=>{
+    setTogleClr2((prev)=>(!prev))
+   if(togleClr === true){
+    // setClr('#1fc26b')
+    setClr2('#1fc26b')
+    // setClr3('#1fc26b')
+   }else{
+    null
+   }
+}
+
+const handleClrTogle3 = ()=>{
+    setTogleClr3((prev)=>(!prev))
+   if(togleClr === true){
+    // setClr('#1fc26b')
+    // setClr2('#1fc26b')
+    setClr3('#1fc26b')
+   }else{
+    null
+   }
+}
+
+
+
 
   return (
    <>
@@ -42,21 +68,21 @@ const handleClrTogle = ()=>{
             <div className='textHeader'>
                 Pay with
             </div>
-            <span style={{color:'#4ac282'}} className='card'>
+            <span style={{color:'#4ac282'}} className='ModalPopCard'>
             <PiCreditCardLight size={50} color='#4ac282'/>
             Card
             </span>
-            <span className='card'>
+            <span className='ModalPopCard'>
             <FiSend size={50} />
             Transfer
             </span>
 
-            <span className='card'>
+            <span className='ModalPopCard'>
             <CiBank size={50} />
             Bank
             </span>
 
-            <span style={{fontWeight:'bold'}} className='card'>
+            <span style={{fontWeight:'bold'}} className='ModalPopCard'>
             *#  USSD
             </span>
            
@@ -77,12 +103,12 @@ const handleClrTogle = ()=>{
             </span>
 
             <span style={togleClr?{borderColor:clr2}:{borderColor:'black'}}>
-            {togleClr?<FaRegCircle onClick={handleClrTogle} color={clr2}/>:<FaRegCircle onClick={handleClrTogle} color='black'/>}
+            {togleClr2?<FaRegCircle onClick={handleClrTogle2} color={clr2}/>:<FaRegCircle onClick={handleClrTogle2} color='black'/>}
                 Bank Authorization
             </span>
 
             <span style={togleClr?{borderColor:clr3}:{borderColor:'black'}}>
-            {togleClr?<FaRegCircle onClick={handleClrTogle} color={clr3}/>:<FaRegCircle onClick={handleClrTogle} color='black'/>}
+            {togleClr3?<FaRegCircle onClick={handleClrTogle3} color={clr3}/>:<FaRegCircle onClick={handleClrTogle3} color='black'/>}
                 Declined
             </span>
         </div>
