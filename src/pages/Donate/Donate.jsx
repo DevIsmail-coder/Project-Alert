@@ -5,9 +5,11 @@ import { FaLock } from "react-icons/fa";
 import { GiLifeSupport } from "react-icons/gi";
 import { FaRibbon } from "react-icons/fa6";
 import { MdLibraryBooks } from "react-icons/md";
-
 import { LiaTimesSolid } from "react-icons/lia";
 import PaymentModal from '../../components/PaymentModal';
+import Header from '../Header/Header';
+import Filter from '../Filter/Filter';
+
 
 const Donate = () => {
     const [clrTogle, setClrTogle] = useState(true)
@@ -25,9 +27,11 @@ const Donate = () => {
   return (
     <>
     <div className='donatePage'>
-      <div className='header'>
+      {/* <div className='header'>
         <h1>HEADER</h1>
-      </div>
+      </div> */}
+      <Header/>
+      
       <div className='donateHeader'>
         <h1 style={{ color: 'purple' }}>Donate</h1>
         <h1>WE'd Love Your Support</h1>
@@ -149,13 +153,14 @@ const Donate = () => {
 
         </div>
       </div>
-      <div className='footerWrapper'>
+      <Filter/>
+      {/* <div className='footerWrapper'>
         <h1>Footer</h1>
-      </div>
+      </div> */}
     </div>
       <div className='modal'>
        <span className='closeModal'><LiaTimesSolid size={30} onClick={handleOpenModalTogle}/></span>
-      {/* {openModal?<PaymentModal/>:null} */}
+      {openModal?<PaymentModal/>:null}
       </div>
     </>
   )
