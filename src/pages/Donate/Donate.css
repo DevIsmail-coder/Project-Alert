@@ -23,7 +23,7 @@
     height: 30vh;
     min-height: 30%;
     width: 100%;
-    margin-top: 100px;
+    /* margin-top: 0px; */
     display: flex;
     flex-direction: column;
     font-size: 25px;

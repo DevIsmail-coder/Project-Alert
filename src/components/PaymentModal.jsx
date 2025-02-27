@@ -68,7 +68,7 @@ const handleClrTogle3 = ()=>{
             <div className='textHeader'>
                 Pay with
             </div>
-            <span style={{color:'#4ac282'}} className='card'>
+            <span style={{color:'#4ac282'}} className='ModalPopCard'>
             <PiCreditCardLight size={50} color='#4ac282'/>
             Card
             </span>
