@@ -38,7 +38,7 @@ const handleClrTogle = ()=>{
 
 const handleClrTogle2 = ()=>{
     setTogleClr2((prev)=>(!prev))
-   if(togleClr === true){
+   if(togleClr2 === true){
     // setClr('#1fc26b')
     setClr2('#1fc26b')
     // setClr3('#1fc26b')
@@ -49,7 +49,7 @@ const handleClrTogle2 = ()=>{
 
 const handleClrTogle3 = ()=>{
     setTogleClr3((prev)=>(!prev))
-   if(togleClr === true){
+   if(togleClr3 === true){
     // setClr('#1fc26b')
     // setClr2('#1fc26b')
     setClr3('#1fc26b')
@@ -69,7 +69,7 @@ const handleClrTogle3 = ()=>{
                 Pay with
             </div>
             <span style={{color:'#4ac282'}} className='ModalPopCard'>
-            <PiCreditCardLight size={50} color='#4ac282'/>
+            <PiCreditCardLight size={40} color='#4ac282'/>
             Card
             </span>
             <span className='ModalPopCard'>
@@ -78,7 +78,7 @@ const handleClrTogle3 = ()=>{
             </span>
 
             <span className='ModalPopCard'>
-            <CiBank size={50} />
+            <CiBank size={40} />
             Bank
             </span>
 
@@ -98,17 +98,17 @@ const handleClrTogle3 = ()=>{
         <div className='selectPayment'>
             <span style={togleClr?{borderColor:clr}:{borderColor:'black'}}>
 
-                {togleClr?<FaRegCircle onClick={handleClrTogle} color={clr}/>:<FaRegCircle onClick={handleClrTogle} color='black'/>}
+                {togleClr?<FaRegCircle style={{cursor:'pointer'}} onClick={handleClrTogle} color={clr}/>:<FaRegCircle style={{cursor:'pointer'}} onClick={handleClrTogle} color='black'/>}
                 Success
             </span>
 
-            <span style={togleClr?{borderColor:clr2}:{borderColor:'black'}}>
-            {togleClr2?<FaRegCircle onClick={handleClrTogle2} color={clr2}/>:<FaRegCircle onClick={handleClrTogle2} color='black'/>}
+            <span style={togleClr2?{borderColor:clr2}:{borderColor:'black'}}>
+            {togleClr2?<FaRegCircle style={{cursor:'pointer'}} onClick={handleClrTogle2} color={clr2}/>:<FaRegCircle style={{cursor:'pointer'}} onClick={handleClrTogle2} color='black'/>}
                 Bank Authorization
             </span>
 
-            <span style={togleClr?{borderColor:clr3}:{borderColor:'black'}}>
-            {togleClr3?<FaRegCircle onClick={handleClrTogle3} color={clr3}/>:<FaRegCircle onClick={handleClrTogle3} color='black'/>}
+            <span style={togleClr3?{borderColor:clr3}:{borderColor:'black'}}>
+            {togleClr3?<FaRegCircle style={{cursor:'pointer'}} onClick={handleClrTogle3} color={clr3}/>:<FaRegCircle style={{cursor:'pointer'}} onClick={handleClrTogle3} color='black'/>}
                 Declined
             </span>
         </div>

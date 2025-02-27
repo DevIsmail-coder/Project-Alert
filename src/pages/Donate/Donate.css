@@ -1,6 +1,4 @@
-
-
-.donatePage{
+.donatePage {
     height: max-content;
     width: 100%;
     background-color: white;
@@ -12,14 +10,14 @@
 }
 
 
-.header{
+.header {
     height: 20vh;
     width: 100%;
-    background-color:#f7f0ff ;
+    background-color: #f7f0ff;
     position: fixed;
 }
 
-.donateHeader{
+.donateHeader {
     height: 30vh;
     min-height: 30%;
     width: 100%;
@@ -36,7 +34,7 @@
 
 
 
-.paymentWrapper{
+.paymentWrapper {
     height: 80vh;
     min-height: 80%;
     width: 45%;
@@ -51,15 +49,15 @@
 }
 
 
-.dailyMonthlyPlans{
+.dailyMonthlyPlans {
     height: 10%;
     width: 80%;
     border: 2px solid grey;
     border-radius: 10px;
     display: flex;
     font-size: 20px;
-    
-    && .giveOnce{
+
+    && .giveOnce {
         height: 100%;
         /* border-radius: 20px; */
         width: 50%;
@@ -69,11 +67,11 @@
         display: flex;
         justify-content: center;
         color: white;
-        
-        
+
+
     }
-    
-    && .monthly{
+
+    && .monthly {
         height: 100%;
         width: 50%;
         /* border-radius: 10px; */
@@ -91,14 +89,14 @@
 }
 
 
-.amountDiv{
-    height:90%;
+.amountDiv {
+    height: 90%;
     width: 80%;
     border: 2px solid black;
 }
 
 
-.chooseAmount{
+.chooseAmount {
     height: 17%;
     width: 100%;
     font-size: 20px;
@@ -111,29 +109,30 @@
 }
 
 
-.donationAmounts{
+.donationAmounts {
     height: 60%;
     width: 100%;
     /* background-color: blue; */
     padding: 10px;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
 
 
 
 
-    button{
+    button {
         height: 25%;
         width: 80%;
         background-color: #613494;
         color: white;
         font-size: 30px;
+        border: none;
     }
 }
 
-.amounts{
+.amounts {
     height: 25%;
     width: 100%;
     /* background-color: green; */
@@ -143,7 +142,7 @@
     /* font-size: 20px; */
 
 
-    && .span{
+    && .span {
         height: 100%;
         width: 30%;
         background-color: #c7c5c5;
@@ -154,15 +153,16 @@
         font-size: 18px;
         padding: 20px;
         outline: none;
+        border: none;
     }
     
     
-    && .span:hover{
+    && .span:hover {
         background-color: #613494a9;
     }
     
     
-    && .bigSpan{
+    && .bigSpan {
         height: 100%;
         outline: none;
         padding: 20px;
@@ -173,16 +173,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border: none;
     }
 
-    .bigSpan:hover{
+    .bigSpan:hover {
         background-color: #613494a9;
     }
 
 }
 
 
-.secureDiv{
+.secureDiv {
     height: 23%;
     width: 100%;
     border: 2px solid grey;
@@ -190,9 +191,9 @@
     gap: 12px;
     justify-content: center;
     align-items: center;
-    
-    
-    span{
+
+
+    span {
         color: grey;
         font-size: 15px;
 
@@ -201,7 +202,7 @@
 
 
 
-.img2{
+.img2 {
     height: 15vh;
     width: 30%;
     background-color: red;
@@ -210,15 +211,15 @@
 
 
 
-    img{
-        height:100%;
+    img {
+        height: 100%;
         width: 100%;
         object-fit: cover;
     }
 }
 
 
-.img1{
+.img1 {
     height: 17vh;
     width: 50%;
     background-color: purple;
@@ -226,15 +227,15 @@
 
 
 
-    img{
-        height:100%;
+    img {
+        height: 100%;
         width: 100%;
         object-fit: cover;
     }
 }
 
 
-.footer2Wrapper{
+.footer2Wrapper {
     height: 70vh;
     width: 100%;
     background-color: white;
@@ -244,7 +245,7 @@
     align-items: center;
 }
 
-.footerText{
+.footerText {
     height: 30%;
     width: 100%;
     display: flex;
@@ -256,7 +257,7 @@
     /* background-color: red; */
 }
 
-.motivationCards{
+.motivationCards {
     height: 70%;
     width: 100%;
     display: flex;
@@ -268,39 +269,40 @@
 
 
 
-.motivationCard{
+.motivationCard {
     height: 90%;
     width: 18%;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 17px;
     /* justify-content: center; */
     align-items: center;
-    border: 4px solid  #613494a9;
-  padding: 10px;
+    border: 4px solid #613494a9;
+    padding: 10px;
     border-radius: 20px;
 }
 
 
-.tittle{
-    height: 20%;
+.tittle {
+    height: 17%;
+    /* background-color: red; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    h1{
+    h1 {
         font-size: 20px;
     }
 
-    h2{
-        font-size: 15px;
+    h2 {
+        font-size: 13px;
     }
 }
 
-.content{
-    height: 40%;
+.content {
+    height: 42%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -310,13 +312,13 @@
 }
 
 
-.footerWrapper{
+.footerWrapper {
     height: 30vh;
     width: 100%;
     background-color: #242023;
 }
 
-.modal{
+.modal {
     height: max-content;
     width: max-content;
     top: 500px;
@@ -325,7 +327,7 @@
 }
 
 
-.closeModal{
+.closeModal {
     height: max-content;
     width: 100%;
     display: flex;
@@ -333,5 +335,3 @@
     position: absolute;
     top: 20;
 }
-
-
