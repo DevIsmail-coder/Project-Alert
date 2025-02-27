@@ -1,0 +1,112 @@
+.GetInvolvedbody {
+    width: 100%;
+}
+
+.GetInvolvedheader {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    font-family: inter, sans-serif;
+    background-color: #F7F0FF;
+}
+
+.GetInvolvedh3{
+    font-size: 22px;
+    color: #9F75CE;
+}
+
+.GetInvolvedh1{
+    font-size: 48px;
+    color: #1E1E1E;
+}
+.GetInvolvedcontainer {
+    width: 100%;
+    height: 1720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: inter, sans-serif;
+    gap: 70px;
+ /* padding-top: 50px; */
+    /* background-color: blue; */
+}
+
+.GetInvolvedcontainer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 730px;
+    gap: 20px;
+    /* background-color: yellow; */
+}
+.GetInvolvedcontainer1span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+    justify-content: center;
+}
+
+.GetInvolvedcontainer1p{
+    font-size: 13px;
+    font-weight: 650;
+    color: #9F75CE;
+}
+
+.GetInvolvedcontainer1h3{
+    font-size: 32px;
+    color: #1E1E1E;
+}
+.GetInvolvedcontainer1pp{
+    width: 97%;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 300.8;
+    line-height: 25px;
+    text-align: center;
+    color: #1E1E1E;
+
+}
+
+.GetInvolvedimagecontainer{
+    width: 92%;
+    height: 525px;
+    border-radius: 9px;
+    object-fit: cover;
+    position: relative;
+    /* background-color: orange; */
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.Filterbutton{
+    width: 105px;
+    height: 37px;
+  position: absolute;
+  /* top: 0px; */
+  right: 41%;
+  border: none;
+  border-radius: 9px;
+  bottom: 60px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 200;
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+background-color: #371D53;
+cursor: pointer;
+}
+
+.active{
+    color: #371D53;
+}
