@@ -54,3 +54,9 @@
     color: #371D53;
     border-bottom: 1px solid #371D53;
 }
+
+@media screen and (max-width: 650px) {
+    .Headerbody{
+     display: none;
+    }
+ }

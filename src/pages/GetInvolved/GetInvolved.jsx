@@ -21,7 +21,7 @@ const GetInvolved = () => {
             practical experience and skill development in a specific field, often leading
              to future career opportunities.</p>
           <div className='GetInvolvedimagecontainer'>
-            <img src='src/assets/intern form 1 (1).png' className='img'/>
+            <img src='/intern form 1 (1).png' className='img'/>
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSezT-2g1L27OREuo-9JfhqWRz-zE6_pvP_XlJXNUzz1HtD0jA/viewform'> 
             <button className='Filterbutton'>
               Click Here
@@ -39,7 +39,7 @@ const GetInvolved = () => {
             to help a cause or organization, typically without pay, while gaining experience and 
             contributing to the community.</p>
           <div className='GetInvolvedimagecontainer'>
-            <img src='src/assets/intern form 1 (1).png' className='img'/>
+            <img src='/intern form 1 (1).png' className='img'/>
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSeTvOw9q4aBX--yakW_ED5wnAUUqADYLvA7l9Ddi43DsrsI0Q/viewform?pli=1'> 
             <button className='Filterbutton'>
               Click Here

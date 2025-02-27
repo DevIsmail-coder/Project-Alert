@@ -41,12 +41,12 @@ const Donate = () => {
           <span className='chooseAmount'>{clrTogle ? 'Choose an amount' : 'Choose an amount to give per Month'}</span>
           <div className='donationAmounts'>
             <div className='amounts'>
-              <input type='text' className='span' placeholder='N100NGN' />
-              <input type='text' className='span' placeholder='N100NGN' />
-              <input type='text' className='span' placeholder='N100NGN' />
+              <input type='text' className='span' placeholder='N500NGN' />
+              <input type='text' className='span' placeholder='N1000NGN' />
+              <input type='text' className='span' placeholder='N1500NGN' />
             </div>
             <div className='amounts'>
-            <input type='text' className='span' placeholder='N100NGN' />
+            <input type='text' className='span' placeholder='N2000NGN' />
             <input type='text' className='bigSpan' placeholder='N100NGN' />
             </div>
             <button onClick={handleOpenModalTogle}>Join Today</button>
@@ -61,10 +61,10 @@ const Donate = () => {
         </div>
       </div>
       <div className='img2'>
-        <img src="/img1" alt="" />
+        <img src="../src/assets/img2" alt="" />
       </div>
       <div className='img1'>
-
+         <img src="/src/assets/img1" alt="" />
       </div>
       <div className='footer2Wrapper'>
         <span className='footerText'>
@@ -77,7 +77,7 @@ const Donate = () => {
         <div className='motivationCards'>
 
           <span className='motivationCard'>
-            <div className='icon'><GiLifeSupport size={100} color='#7f47bf'/></div>
+            <div className='icon'><GiLifeSupport size={80} color='#7f47bf'/></div>
             <div className='tittle'>
               <h1>Counseling & emotional</h1>
               <h2>Support</h2>
@@ -94,7 +94,7 @@ const Donate = () => {
           </span>
 
           <span className='motivationCard'>
-            <div className='icon'><FaRibbon size={100} color='#7f47bf'/></div>
+            <div className='icon'><FaRibbon size={80} color='#7f47bf'/></div>
             <div className='tittle'>
               <h1>Awareness & Public</h1>
               <h2>Education</h2>
@@ -113,7 +113,7 @@ const Donate = () => {
           </span>
 
           <span className='motivationCard'>
-            <div className='icon'><GiLifeSupport size={100} color='#7f47bf'/></div>
+            <div className='icon'><GiLifeSupport size={80} color='#7f47bf'/></div>
             <div className='tittle'>
               <h1>Legal Aid & Advocacy</h1>
               {/* <h2>Support</h2> */}
@@ -131,7 +131,7 @@ const Donate = () => {
           </span>
 
           <span className='motivationCard'>
-            <div className='icon'><MdLibraryBooks size={100} color='#7f47bf'/></div>
+            <div className='icon'><MdLibraryBooks size={80} color='#7f47bf'/></div>
             <div className='tittle'>
               <h1>Reasearch & </h1>
               <h2> Documentation</h2>
@@ -155,7 +155,7 @@ const Donate = () => {
     </div>
       <div className='modal'>
        <span className='closeModal'><LiaTimesSolid size={30} onClick={handleOpenModalTogle}/></span>
-      {openModal?<PaymentModal/>:null}
+      {/* {openModal?<PaymentModal/>:null} */}
       </div>
     </>
   )
