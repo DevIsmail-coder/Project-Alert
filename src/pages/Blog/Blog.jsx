@@ -137,31 +137,33 @@ const Linkdata = [
 const Blog = () => {
   return (
     <div className="mainBody">
-    <Header/>
+      <Header />
       <div className="blog_Hero">
         <div className="Page-title">
-        <h2>BLOG</h2>
-        <h1>In the news & E-newsletter</h1>
+          <h2>BLOG</h2>
+          <h1>In the news & E-newsletter</h1>
         </div>
 
       </div>
       <div className="card_holder">
-        {cardData.map((i, index) => (
-          <div className="card" key={index}>
-            <div className="card_img">
-              <img src={i.img} alt="" />
+        <div className="card_container">
+          {cardData.map((i, index) => (
+            <div className="card" key={index}>
+              <div className="card_img">
+                <img src={i.img} alt="" />
+              </div>
+              <div className="card_title">
+                <h3>{i.title}</h3>
+              </div>
+              <div className="card_content">
+                <p>{i.content}</p>
+              </div>
+              <div className="card_content">
+                <p>{i.date}</p>
+              </div>
             </div>
-            <div className="card_title">
-              <h3>{i.title}</h3>
-            </div>
-            <div className="card_content">
-              <p>{i.content}</p>
-            </div>
-            <div className="card_date">
-              <p>{i.date}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
         <div className="dot-holder">
           <span className="dot"></span>
           <span className="dot2"></span>
@@ -175,19 +177,19 @@ const Blog = () => {
           </div>
         </div>
         <section className="LinkBody">
-          { Linkdata.map((item, index)=>(
+          {Linkdata.map((item, index) => (
 
-          <div className="LinkCard" key={index}>
-            <div className="tit">{item.first}</div>
-            <div className="see">
-              <a href={item.second}>see more</a>
+            <div className="LinkCard" key={index}>
+              <div className="tit">{item.first}</div>
+              <div className="see">
+                <a href={item.second}>see more</a>
+              </div>
+              <div className="foot">{item.third}</div>
             </div>
-            <div className="foot">{item.third}</div>
-          </div>
-           ))}
+          ))}
 
         </section>
-          <Filter/>
+        <Filter />
       </div>
     </div>
   );

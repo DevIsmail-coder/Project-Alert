@@ -57,11 +57,13 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    cursor: pointer;
     background-color: #371D53;
 }
 .filterbutton:hover{
   width: 120px;
   height: 40px;
+  cursor: pointer;
   background-color: #6f32b1e7;
 }
 .filtericonspan{

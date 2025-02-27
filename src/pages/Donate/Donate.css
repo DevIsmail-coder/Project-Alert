@@ -23,7 +23,7 @@
     height: 30vh;
     min-height: 30%;
     width: 100%;
-    margin-top: 100px;
+    /* margin-top: 0px; */
     display: flex;
     flex-direction: column;
     font-size: 25px;
@@ -101,7 +101,7 @@
 .chooseAmount{
     height: 17%;
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -319,8 +319,8 @@
 .modal{
     height: max-content;
     width: max-content;
-    top: 800px;
-    right: 800px;
+    top: 500px;
+    right: 450px;
     position: absolute;
 }
 

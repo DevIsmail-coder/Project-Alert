@@ -4,8 +4,10 @@ import { LiaFacebook } from "react-icons/lia";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { RiYoutubeLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const Filter = () => {
+    const navigate = useNavigate()
     return (
         <div className='Filterbody'>
             <div className='Filtermain'>
@@ -40,7 +42,7 @@ const Filter = () => {
                     </span>
                 </article>
                 <article className='Filtercontainer2'>
-                    <button className='filterbutton'>Donate now</button>
+                    <button className='filterbutton' onClick={() => navigate("/donate")}>Donate now</button>
                     <span className='filtericonspan'>
                         <LiaFacebook className='filtericons' />
                         <SlSocialLinkedin  className='filtericons1'/>

@@ -46,6 +46,7 @@
 
 .Headerdiv1span{
     columns: #371D53;
+    cursor: pointer;
 }
 
 .active{
