@@ -54,8 +54,6 @@ const Payment = () => {
           <button> <h2>pay</h2><h2 style={{color:"white"}}>NGN<sup style={{color:"white", marginLeft:"30"}}>****</sup></h2></button>
           <h3 className='last'>Use another card</h3>
       </div>
-
-
   </div>
     </Modal>
   </>
