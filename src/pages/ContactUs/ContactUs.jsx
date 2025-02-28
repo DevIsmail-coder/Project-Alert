@@ -12,8 +12,8 @@ const ContactUs = () => {
       <Header />
     <div className="ContactUs">
       <div className="ContactUsHeader">
-        <h4>Contact Us</h4>
-        <h1>We'd love to talk to you</h1>
+        <h4>CONTACT US</h4>
+        <h1>We’d love to talk to you</h1>
       </div>
       <div className="ContactUsBody">
         <div className="ContactUsBodyBox1">
@@ -29,19 +29,19 @@ const ContactUs = () => {
             </div>
 
             <div className="ContactUsBodyBox1Small2">
-              <div className="ContactUsBodyBox1Small2Box">
-               <div className="InputBox">
-               <input type="text" className="Input" placeholder="First name"/>   
-               <input type="text" className="Input" placeholder="Last name"/>   
+              <div className="contactUsBodyBox1Small2Boxxx">
+               <div className="InputBoxx">
+            <span className="Inputxx">First name</span>
+            <span className="Inputxx">Last name</span> 
                </div>
-               <div className="InputBox">
-               <input type="text" className="Input" placeholder="Enther email address"/>   
-               <input type="text" className="Input" placeholder="Phone number"/>   
+               <div className="InputBoxx">
+               <span className="Inputxx">Enter Email address</span>
+               <span className="Inputxx">Phone number</span>  
                </div>
              
-               <div className="InputBox">
-               <input type="text" className="Input" placeholder="Who is the victim?"/>   
-               <input type="text" className="Input" placeholder="Type of abuse: "/>   
+               <div className="InputBoxx">
+               <span className="Inputxx">Who is the Victim?</span>
+               <span className="Inputxx">Type of Abuse:</span>   
                </div>
 
               </div>
@@ -127,9 +127,10 @@ const ContactUs = () => {
               </div>
             </div>
         </div>
+        <Filter />
       </div>
+     
     </div>
-      {/* <Filter /> */}
     </>
 
   );

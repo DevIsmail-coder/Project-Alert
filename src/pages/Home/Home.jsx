@@ -70,36 +70,72 @@ const Home = () => {
                 </div>
                 <div className='what-we-provide-btm'>
                     <div className='what-we-provide-btm-card-1'>
-                        <div className='what-we-provide-btm-card-1-icon-div'><GiLifeSupport size={60} color='#7f47bf'/>Counseling and Emotional Support</div>
-                        <div className='what-we-provide-btm-card-1-text-div'>
+                        <div className='what-we-provide-btm-card-1-icon-div'><GiLifeSupport size={45} color='#7f47bf'/></div>
+                        <h3>Counseling and Emotional Support</h3>
                             <p>Free trauma counselling for survivors of domestic violence, sexual abuse, and other rorms of abuse and psychological support to help survivors rebuild their confidence and mental well-being</p>
-                        </div>
                     </div>
                     <div className='what-we-provide-btm-card-1'>
                     <div className='what-we-provide-btm-card-1-icon-div'>
-                    <div className='what-we-provide-btm-card-1-icon-div'><FaRibbon size={60} color='#7f47bf'/>Awareness & Public Education</div>
+                    <FaRibbon size={45} color='#7f47bf'/>
                     </div>
-                    <div className='what-we-provide-btm-card-1-text-div'>
+                    <h3>Awareness & Public Education</h3>
                         <p>Organizing campaigns, workshops, and seminars to educate communities on gender-based violence and to training ror law enforcement, health workers, and the public on how to support survivors.</p>
                     </div>
-                    </div>
                     <div className='what-we-provide-btm-card-1'>
                     <div className='what-we-provide-btm-card-1-icon-div'>
-                    <div className='what-we-provide-btm-card-1-icon-div'><GiLifeSupport size={60} color='#7f47bf'/>Legal Aid & Advocacy</div>
+                   <GiLifeSupport size={45} color='#7f47bf'/>
                     </div>
-                    <div className='what-we-provide-btm-card-1-text-div'>
+                    <h3>Legal Aid & Advocacy</h3>
                         <p>Providing survivors with legal guidance and representation to seek justice and advocacy for stronger laws and policies lo protect women and children from violence.</p>
                     </div>
-                    </div>
                     <div className='what-we-provide-btm-card-1'>
                     <div className='what-we-provide-btm-card-1-icon-div'>
-                    <div className='what-we-provide-btm-card-1-icon-div'><MdLibraryBooks size={60} color='#7f47bf'/>Research & Documentation</div>
+                         <MdLibraryBooks size={45} color='#7f47bf'/>
                     </div>
-                    <div className='what-we-provide-btm-card-1-text-div'>
+                    <h3>Research & Documentation</h3>      
                         <p>Collecting data and reports on violence against woren and children in Nigeria. Using research
                         to influence policy changes and advocacy efforts.</p>
                     </div>
-                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='Homecontainer3'>
+            <div className='Homecontainer3main'>
+              
+            <div className='Homecontainer3header'>
+            <p>FEEDBACKS</p>
+            <h1>Testimonials</h1>
+            </div>
+                <div className='Homecontainer3wrap'>
+       <article className='Homecontainer3card'>
+        <div  className='Homecontainer3cardspan'></div>
+        <p className='Homecontainer3cardtitle'>Nana Yaw Otoo</p>
+        <p className='Homecontainer3show'>Hair sylist</p>
+        <p className='Homecontainer3body'>"He made sure I had no access to money. I couldn't work, and I had to beg for money for even the smallest things."</p>
+       </article>
+
+       <article className='Homecontainer3card'>
+        <div  className='Homecontainer3cardspan'></div>
+        <p className='Homecontainer3cardtitle'>Veroll Sterling</p>
+        <p className='Homecontainer3show'>CEO of Origin sopra</p>
+        <p className='Homecontainer3body'>"When I reached out to Project Alert, I was at my breaking point. Living in fear had become my daily reality”"</p>
+       </article>
+
+       <article className='Homecontainer3card'>
+        <div  className='Homecontainer3cardspan'></div>
+        <p className='Homecontainer3cardtitle'>Clive Thibela</p>
+        <p className='Homecontainer3show'>traditionist</p>
+        <p className='Homecontainer3body'>""When I reached out to Project Alert, I was at my breaking point. Living in fear had become my daily reality”"</p>
+       </article>
+       
+       <article className='Homecontainer3card'>
+        <div  className='Homecontainer3cardspan'></div>
+        <p className='Homecontainer3cardtitle'>Nana Yaw Otoo</p>
+        <p className='Homecontainer3show'>Hair sylist</p>
+        <p className='Homecontainer3body'>"I found the strength to reclaim my life and my voice Today, I live without fear and with hope for brighter 
+            furture
+            "</p>
+       </article>
                 </div>
             </div>
         </div>

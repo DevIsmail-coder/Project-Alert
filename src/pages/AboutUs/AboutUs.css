@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 .AboutUsmain{
     width: 100%;
     height: auto;
@@ -97,30 +104,33 @@
     font-size: 17px;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #371D53;;
+    color: #9F75CE;
 }
 
 .founder-second-header-div{
     width: 100%;
-    height: 10%;
+    height: 8%;
     /* background-color: yellow; */
     padding-left: 40px;
     font-weight: 600;
-    /* align-items: center; */
+    display: flex;
+    align-items: center;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .founder-last-header-div{
-    width: 100%;
-    height: 82%;
-    /* background-color: green; */
+    width: 99%;
+    height: 85%;
     display: flex;
     padding-left: 20px;
     flex-direction: column;
     justify-content: center;
-    /* gap: 20px; */
-    font-size: 21px;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    /* background-color: blue; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -236,13 +246,11 @@
 .core-team-inner{
     width: 30%;
     height: 70%;
-    /* background-color: green; */
 }
 
 .core-team-top-top{
     width: 100%;
     height: 50%;
-    /* background-color: green; */
     display: flex;
     align-items: end;
     justify-content: center;
@@ -289,7 +297,6 @@
 .image1{
     width: 100%;
     height: 60%;
-    /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +312,6 @@
 .btm-div1{
     width: 100%;
     height: 50%;
-    /* background-color: green; */
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -354,31 +360,36 @@
 
 .button-div{
     width: 100%;
-    height: 74vh;
+    height: 60vh;
     /* background-color: magenta; */
     align-items: end;
     display: flex;
-    padding-bottom: 105px;
+    /* padding-bottom: 105px; */
+    align-items: center;
     justify-content: center;
     }
 
 .inner-button-div{
     width: 52%;
-    height: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #371D53;
     border-radius: 25px;
 }
 
 .break-the-silence{
     width: 100%;
-    height: 60%;
-    /* background-color: green; */
+    height: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 16.5px;
+    /* background-color: red; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
 }
@@ -386,7 +397,7 @@
 
 .report-donate-div{
     width: 100%;
-    height: 42%;
+    height: 30%;
     /* background-color: magenta; */
     display: flex;
     justify-content: center;
@@ -395,8 +406,8 @@
 }
 
 .btn-hold-inner{
-    width: 40%;
-    height: 53%;
+    width: 50%;
+    height: 80%;
     /* background-color: yellow; */
     display: flex;
     flex-direction: row;
@@ -404,17 +415,17 @@
 }
 
 .report-a-case-btn{
-    width: 55%;
+    width: 50%;
     height: 100%;
-    /* background-color: green; */
     cursor: pointer;
     border: none;
     background-color: white;
     color: #371D53;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 0.7px;
 }
 
 .donate-now-btn{
@@ -427,7 +438,9 @@
     border: 1px solid white;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 250px) and (max-width: 320px) {
@@ -454,7 +467,7 @@
     }
 
     .know-more{
-        /* background-color: green; */
+
         font-size: 12px;
         /* height: 100%; */
     }
@@ -507,7 +520,7 @@
     }
 
     .founder-second-header-div{
-        /* background-color: green; */
+
         font-size: 3px;
         padding-top: 5px;
         padding-left: 20px;
@@ -517,7 +530,7 @@
     .founder-last-header-div{
         width: 100%;
         height: 85%;
-        /* background-color: green; */
+
         font-size: 7px;
         font-weight: 600;
     }
@@ -536,7 +549,6 @@
     }
 
     .our-vision{
-       /* background-color: green; */
        height: 85%;
        width: 100%;
     }
@@ -595,12 +607,12 @@
     }
 
     .our-team-top-top{
-        /* background-color: green; */
+
         font-size: 7px;
     }
 
     .core-team-btm{
-        /* background-color: green; */
+
         width: 100%;
     }
 
@@ -610,7 +622,7 @@
     }
 
     .image1{
-        /* background-color: green; */
+
         width: 100%;
     }
 
@@ -628,7 +640,7 @@
     }
 
     .image2{
-        /* background-color: green; */
+
         width: 100%;
     }
 
@@ -647,7 +659,7 @@
     }
 
     .btm-div2{
-        /* background-color: green; */
+
         font-size: 6px;
         height: 25%;
         width: 100%;
@@ -655,13 +667,13 @@
 
     .inner-button-div{
         width: 80%;
-        /* background-color: green; */
+
         height: 40%;
         border-radius: 6px;
     }
 
     .break-the-silence{
-        /* background-color: green; */
+
         font-size: 8px;
     }
 
@@ -672,7 +684,7 @@
     }
 
     .report-a-case-btn{
-        /* background-color: green; */
+
         width: 100%;
         border-radius: 4px;
         font-size: 10px;
@@ -709,7 +721,7 @@
     }
 
     .know-more{
-        /* background-color: green; */
+
         font-size: 12px;
         /* height: 100%; */
     }
@@ -762,7 +774,7 @@
     }
 
     .founder-second-header-div{
-        /* background-color: green; */
+
         font-size: 6px;
         padding-top: 5px;
         padding-left: 20px;
@@ -772,7 +784,7 @@
     .founder-last-header-div{
         width: 100%;
         height: 85%;
-        /* background-color: green; */
+
         font-size: 9px;
         font-weight: 600;
     }
@@ -791,7 +803,6 @@
     }
 
     .our-vision{
-       /* background-color: green; */
        height: 85%;
        width: 100%;
     }
@@ -850,12 +861,12 @@
     }
 
     .our-team-top-top{
-        /* background-color: green; */
+
         font-size: 10px;
     }
 
     .core-team-btm{
-        /* background-color: green; */
+
         width: 100%;
     }
 
@@ -865,12 +876,11 @@
     }
 
     .image1{
-        /* background-color: green; */
+
         width: 100%;
     }
 
     .img1-main{
-       /* background-color: magenta; */
        display: flex;
        align-items: end;
        
@@ -883,25 +893,23 @@
     }
 
     .image2{
-        /* background-color: green; */
+
         width: 100%;
     }
 
     .btm-div1{
-        /* background-color: yellow; */
         height: 40%;
         width: 100%;
         font-size: 9px;
     }
 
     .btm-div2-1{
-        /* background-color: magenta; */
         width: 100%;
         font-size: 8px;
     }
 
     .btm-div2{
-        /* background-color: green; */
+
         font-size: 8px;
         height: 30%;
         width: 100%;
@@ -909,24 +917,23 @@
 
     .inner-button-div{
         width: 80%;
-        /* background-color: green; */
+
         height: 40%;
         border-radius: 6px;
     }
 
     .break-the-silence{
-        /* background-color: green; */
+
         font-size: 9px;
     }
 
     .btn-hold-inner{
-        /* background-color: yellow; */
         width: 80%;
         /* height: 70%; */
     }
 
     .report-a-case-btn{
-        /* background-color: green; */
+
         width: 100%;
         border-radius: 4px;
         font-size: 12px;
@@ -953,7 +960,6 @@
     }
 
     .inner-block{
-        /* background-color: yellow; */
         width: 100%;
     }
 
@@ -963,7 +969,7 @@
     }
 
     .know-more{
-        /* background-color: green; */
+
         font-size: 12px;
         /* height: 100%; */
     }
@@ -1016,7 +1022,7 @@
     }
 
     .founder-second-header-div{
-        /* background-color: green; */
+
         font-size: 3px;
         padding-top: 5px;
         padding-left: 20px;
@@ -1026,7 +1032,7 @@
     .founder-last-header-div{
         width: 100%;
         height: 85%;
-        /* background-color: green; */
+
         font-size: 7px;
         font-weight: 600;
     }
@@ -1045,7 +1051,6 @@
     }
 
     .our-vision{
-       /* background-color: green; */
        height: 85%;
        width: 100%;
     }
@@ -1104,12 +1109,12 @@
     }
 
     .our-team-top-top{
-        /* background-color: green; */
+
         font-size: 7px;
     }
 
     .core-team-btm{
-        /* background-color: green; */
+
         width: 100%;
     }
 
@@ -1119,7 +1124,7 @@
     }
 
     .image1{
-        /* background-color: green; */
+
         width: 100%;
     }
 
@@ -1137,7 +1142,7 @@
     }
 
     .image2{
-        /* background-color: green; */
+
         width: 100%;
     }
 
@@ -1156,7 +1161,7 @@
     }
 
     .btm-div2{
-        /* background-color: green; */
+
         font-size: 6px;
         height: 25%;
         width: 100%;
@@ -1164,13 +1169,13 @@
 
     .inner-button-div{
         width: 80%;
-        /* background-color: green; */
+
         height: 40%;
         border-radius: 6px;
     }
 
     .break-the-silence{
-        /* background-color: green; */
+
         font-size: 8px;
     }
 
@@ -1181,7 +1186,7 @@
     }
 
     .report-a-case-btn{
-        /* background-color: green; */
+
         width: 100%;
         border-radius: 4px;
         font-size: 10px;

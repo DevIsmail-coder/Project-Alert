@@ -28,8 +28,8 @@ const AboutUs = () => {
         <div className='founder-biography'>
           <div className='founder-header-div'><h4>ABOUT THE FOUNDER</h4></div>
           <div className='founder-second-header-div'><h1>Josephine Effah-Chukwuma</h1></div>
-          <div className='founder-last-header-div'><p>Josephine Effah-Chukwuma is a passionate women's rights advocate, socail worker, and activist, dedicated to the fight against gender-based violence (GBV) in Nigeria. She founded Project Alert on Violence Against Women in 1999, making it one of the first NGOs in Nigeria to provide direct support services for survivors of abuse.</p>
-          <p>With decades of experience in advocacy, policy reform, and survivor support, josephine has been instrumental in raising awareness, influencing laws, and providing safe spaces for victims of domestic and sexual violence. Her work has earned her recognition both locally and internationally, solidifying her impact in the fight for women's rights and justice.</p></div>
+          <div className='founder-last-header-div'><p>Josephine Effah-Chukwuma is a passionate women's rights advocate, socail worker, and activist, dedicated to the fight against gender-based violence (GBV) in Nigeria. She founded Project Alert on Violence Against Women in 1999, making it one of the first NGOs in Nigeria to provide direct support services for survivors of abuse.
+          With decades of experience in advocacy, policy reform, and survivor support, josephine has been instrumental in raising awareness, influencing laws, and providing safe spaces for victims of domestic and sexual violence. Her work has earned her recognition both locally and internationally, solidifying her impact in the fight for women's rights and justice.</p></div>
         </div>
       </div>
     </div>
