@@ -329,9 +329,6 @@ line-height: 1.5;
   .LinkCard{
     width: 100%;
   }
+
 }
-@media screen and (max-width: 800px) {
-  .Filterbody{
-   display: flex;
-  }
-}
+  
