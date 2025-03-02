@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    /* background-color: yellow; */
+    background-color: yellow;
 
      & h4{
         color: #9F75CE;
@@ -93,91 +93,37 @@
 
     
 }
- .ContactUsBodyBox1Small2{
+
+.ContactUsBodyBox1Small2{
     width: 55%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    /* background-color: black; */
-
-    & .ContactUsBodyBox1Small2Box2{
-        width: 100%;
-        height: 75%;
-        /* background-color: #b491d9; */
-        display: flex;
-        gap: 10px;
-        flex-direction: column;
-
-        & .textarea{
-            width: 100%;
-            height: 200px;
-            background-color: #ecdefe;
-        border-radius: 10px;
-            border: none;
-            margin-top: 10px;
-            padding: 10px;
-        outline: none;
-
-        }
-
-        & .input2{
-            width: 100%;
-            height: 10%;
-            background-color: #ecdefe;
-            border-radius: 10px;
-            padding-left: 10px;
-            border: none;
-        outline: none;
-
-        }
-
-        & button{
-            width: 100%;
-            height: 12%;
-            border-radius: 10px;
-            background-color: #371d53;
-            color: white;
-            border: none;
-        }
-    }
-}
-
-    
-  .contactUsBodyBox1Small2Boxxx{
-    width: 100%;
-    height: 148px;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-direction: column;
-}
-
- .InputBoxx{
- width: 100%;
- display: flex;
- height: 38px;
- gap: 10px;
- justify-content: space-between;
- align-items: center;
- /* background-color: green; */
-} 
-
-.Inputxx{
-    width: 50%;
-    background-color: #ECDEFE;
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    padding-left: 10px;
-    font-size: 12px;
-    color: #3B3638;
-    border-radius: 5px;
     height: 100%;
-} 
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contactusinput {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid black;
+   
+}
+.contactusinput input {
+    flex-grow: 1;  
+    /* flex: 1;   */
+    width: 100%; 
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    background-color: white;
+    border: 2px solid blue;
+}
 
 .ContactUsBodyCallUs{
     width: 100%;
@@ -190,9 +136,9 @@
 }
 
 .ContactUsBodyCallUsSmall{
-    width: 70%;
+    width: 80%;
     height: 100%;
-    /* background-color: #fff; */
+    /* background-color: RED; */
     display: flex;
     align-items: center;
     gap: 15px;
@@ -200,24 +146,24 @@
 }
 
 .ContactUsSmall{
-    width: 35%;
+    width: 37%;
     height: 70%;
-    background-color: rgba(128, 128, 128, 0.452);
-    border-radius: 20px;
+    background-color: #E2E2E2;
+    border-radius: 25px;
     display: flex;
+    gap: 20px;
     flex-direction: row;
 }
 
 .ContactUsSmall1{
-    width: 30%;
+    width: 33%;
     height: 100%;
-    /* background-color: green; */
     display: flex;
     align-items: center;
 }
 
 .ContactUsSmall1Small{
-    width: 100%;
+    width: 70%;
     height: 50%;
     /* background-color: #fff; */
 }
@@ -233,19 +179,20 @@
     gap: 5px;
 
     & h4{
-        font-size: 18px;
-        color: rgba(0, 0, 0, 0.808);
+        font-size: 12px;
+        color: #3B3638;
     }
 
     & h3{
-        font-size: 18px;
+        font-size: 19px;
+        font-weight: 450;
         color: rgba(0, 0, 0, 0.808);
     }
 }
 
 .Icon{
     align-self: center;
-    font-size: 50px;
+    font-size: 30px;
     /* color: white; */
     margin-left: 20px;
 }
@@ -253,13 +200,12 @@
 .ContactUsLocation{
     width: 100%;
     height: 90vh;
-    /* background-color: bisque; */
     display: flex;
     flex-direction: column;
 
     & .ContactUsLocationHeader{
         width: 100%;
-        height: 10%;
+        height: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -268,67 +214,78 @@
     }
 
     & h4{
-        color: #b491d9;
-        font-size: 17px;
+        color: #9F75CE;
+        font-size: 15px;
     }
 
     & h2{
         font-size: 30px;
         font-weight: bold;
+        color: #1E1E1E;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     & .ContactUsLocationBox{
         width: 100%;
         height: 100%;
-        /* background-color: gray; */
         display: flex;
         justify-content: center;
         align-items: center;
-        /* flex-direction: column; */
     }
 
     & .ContactUsLocationBoxSmall{
         width: 80%;
         height: 100%;
-        /* display: flex; */
-        /* background-color: green; */
+        /* background-color: red; */
     }
 
     & .ContactUsLocationBoxSmall1{
         width: 100%;
-        height: 50%;
-        /* background-color: gray; */
+        height: 48%;
         padding: 10px;
         display: flex;
-        gap: 10px;
+        gap: 20px;
     }
 
     & .SmallBox{
-        width: 30%;
+        width: 32%;
         height: 100%;
         border-radius: 30px;
-        border: 1px solid #371d53;
+        border: 1px solid #9F75CE;
         padding: 10px;
         display: flex;
+        gap: 15px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: center;
         font-size: 18px;
+
+        & p{
+            width: 73%;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.7px;
+            font-size: 14px;
+        }
     }
 
-    & .SmallBox2{
-        width: 70%;
-        height: 100%;
-        border-radius: 30px;
-        border: 1px solid #371d53;
-    }
+}
 
-    & .Img{
-        width: 100%;
-        height: 100%;
-    }
+
+  .SmallBox2{
+    width: 67%;
+    height: 235px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-color: blue;
+    /* border: 1px solid #371d53; */
+}
+
+  .Img{
+    width: 100%;
+    border-radius: 30px;
+    height: 100%;
 }
 
 
@@ -350,7 +307,6 @@
     }
 
     .ContactUsBodyBox1Small1{
-        /* background-color: gray; */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -383,7 +339,6 @@
 
     }
     & .ContactUsBodyCallUsSmall{
-        /* background-color: gray; */
         width: 100%;
         height: 90%;
         display: flex;

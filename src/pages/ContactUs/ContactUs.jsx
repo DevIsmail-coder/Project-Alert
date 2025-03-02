@@ -27,30 +27,10 @@ const ContactUs = () => {
                 confidential and will be handle with care and urgency.
               </p>
             </div>
-
             <div className="ContactUsBodyBox1Small2">
-              <div className="contactUsBodyBox1Small2Boxxx">
-               <div className="InputBoxx">
-            <span className="Inputxx">First name</span>
-            <span className="Inputxx">Last name</span> 
-               </div>
-               <div className="InputBoxx">
-               <span className="Inputxx">Enter Email address</span>
-               <span className="Inputxx">Phone number</span>  
-               </div>
-             
-               <div className="InputBoxx">
-               <span className="Inputxx">Who is the Victim?</span>
-               <span className="Inputxx">Type of Abuse:</span>   
-               </div>
-
-              </div>
-
-              <div className="ContactUsBodyBox1Small2Box2">
-                <textarea className="textarea" placeholder="Brief Description"/>
-                <input type="text" placeholder="Location of incident" className="input2"/>
-                <p>Do you need imediate help?</p>
-                <button>Submit</button>
+              <div className="contactusinput">
+                <input type="text" />
+                <input type="text" />
               </div>
             </div>
           </div>
@@ -59,34 +39,26 @@ const ContactUs = () => {
         <div className="ContactUsBodyCallUs">
           <div className="ContactUsBodyCallUsSmall">
             <div className="ContactUsSmall">
-              <div className="ContactUsSmall1">
                 <VscCallIncoming className="Icon"/>
-              </div>
               <div className="ContactUsSmall2">
-                <h4>Call Us</h4>
+                <h4>CALL US</h4>
                 <h3>+234 818 0091 072</h3>
               </div>
 
             </div>
 
             <div className="ContactUsSmall">
-              <div className="ContactUsSmall1">
                   <HiOutlineMail className="Icon"/>
-              </div>
               <div className="ContactUsSmall2">
-                <h4>Email Us</h4>
+                <h4>EMAIL US</h4>
                 <h3>info@projectalertnig.org</h3>
               </div>
             </div>
 
             <div className="ContactUsSmall">
-              <div className="ContactUsSmall1">
-                <div className="ContactUsSmall1Small">
                   <FaLocationDot className="Icon"/>
-                </div>
-              </div>  
               <div className="ContactUsSmall2">
-                <h4>Headquaters</h4>
+                <h4>HEADSQUATERS</h4>
                 <h3>Lagos,Nigeria.</h3>
               </div>
 
@@ -104,24 +76,22 @@ const ContactUs = () => {
                 <div className="ContactUsLocationBoxSmall1">
                   <section className="SmallBox">
                     <h1>Lagos</h1>
-                    <p>Innocent Chukwuma House </p>
-                      <p>21, Akinsanya street Off Isheri Road, Taiwo Bustop (Behind FRSC) Ojodu, Berger P.O. Box 15456, Ikeja Lagos, Nigeria.   </p>
+                      <p> Innocent Chukwuma House 21, Akinsanya street Off Isheri Road, Taiwo Bustop (Behind FRSC) Ojodu, Berger P.O. Box 15456, Ikeja Lagos, Nigeria.   </p>
                   </section>
 
                   <section className="SmallBox2">
-                    <img className="Img" src="../ContactUs/Mappp.png" alt="map" />
+                    <img className="Img" src="public/map.png" alt="map" />
                   </section>
                 </div>
 
                 <div className="ContactUsLocationBoxSmall1">
                   <section className="SmallBox">
                       <h1>Abuja</h1>
-                    <p>Innocent Chukwuma House </p>
-                      <p>27, Moses Majekodunmi Crescent, Opp Keystone Bank, Utako, Abuja  Abuja, Nigeria.   </p>
+                      <p>Innocent Chukwuma House 27, Moses Majekodunmi Crescent, Opp Keystone Bank, Utako, Abuja  Abuja, Nigeria.   </p>
                   </section>
 
                   <section className="SmallBox2">
-                    <img className="Img" src="../ContactUs/Mappp.png" alt="map" />
+                    <img className="Img" src="public/map.png" alt="map" />
                   </section>
                 </div>
               </div>
