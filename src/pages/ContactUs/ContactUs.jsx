@@ -99,7 +99,7 @@ const ContactUs = () => {
                   </section>
 
                   <section className="SmallBox2">
-                    <img className="Img" src="public/map.png" alt="map" />
+                    <img className="Img" src="/map.png" alt="map" />
                   </section>
                 </div>
 
@@ -110,7 +110,7 @@ const ContactUs = () => {
                   </section>
 
                   <section className="SmallBox2">
-                    <img className="Img" src="public/map.png" alt="map" />
+                    <img className="Img" src="/map.png" alt="map" />
                   </section>
                 </div>
               </div>

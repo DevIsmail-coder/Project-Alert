@@ -35,13 +35,13 @@ const Home = () => {
     <div className='Who-are-were'>
         <div className='who-are-we-inner'>
         <div className='what-we-provide-img-1'>
-            <img src="/public/HompageImg1.png" alt="put-image-here" />
+            <img src="/HompageImg1.png" alt="put-image-here" />
             <div className='absolute-image-div'>
                 <div className='absolute1-img'>
-                    <img src="/public/HomePageimg2.png" alt="put-image-here" />
+                    <img src="/HomePageimg2.png" alt="put-image-here" />
                 </div>
                 <div  className='absolute2-img'>
-                    <img src="/public/HomePageImg3.png" alt="put-img-here" />
+                    <img src="/HomePageImg3.png" alt="put-img-here" />
                 </div>
             </div>
         </div>
