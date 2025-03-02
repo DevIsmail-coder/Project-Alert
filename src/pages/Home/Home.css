@@ -438,3 +438,59 @@ gap: 5px;
     line-height: 1.7;
     font-weight: 250;
 }
+
+@media screen and (max-width: 800px) {
+    .hero-wrap {
+        height:  300px;
+    }
+    .hero-img-main {
+        width: 100%;
+        border-radius: 0;
+        height: 100%;
+    }
+
+    .inner-up-img-text-1 {
+       & h1 {
+            font-size: 20px;
+        }
+      & p{
+        font-size: 12px;
+      }
+    }
+    .inner-btm-btn-div {
+        width: 100%;
+        height: 30px;
+   
+        & button{
+            width: 50%;
+            height: 100%;
+            font-size: 12px;
+        }
+    }
+    .who-are-we-inner{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: green;
+    }
+
+    .what-we-provide-img-1{
+        width: 80%;
+
+    }
+    .what-we-provide-img-2{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+    }
+    .what-we-provide-img-2-wrap{
+        width: 80%;
+        font-size: 10px;
+    }
+}

@@ -21,8 +21,7 @@ const Home = () => {
             <div className='inner-up-img-text-1'>
                 <h1>Breaking the silence,</h1>
                 <h1>Building a safer Future.</h1>
-                <p>Providing safety, support, justice for women</p>
-                <p>and children</p>
+                <p>Providing safety, support, justice for women and children</p>
             </div>
             <div className='inner-up-img-text-2'>
                 <div className='inner-btm-btn-div'>
