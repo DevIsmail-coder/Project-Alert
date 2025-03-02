@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './payment.css'
+import './Payment.css'
 import { Button, Modal } from 'antd';
 import { TbCreditCard } from "react-icons/tb";
 import { IoPaperPlaneOutline } from "react-icons/io5";
